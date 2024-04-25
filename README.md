@@ -1,4 +1,4 @@
-![logo](https://cdn.pixabay.com/animation/2022/08/31/08/22/08-22-29-904_512.gif)
+![logo](https://github.com/Muhamadrenald/Muhamadrenald/blob/master/pcgaming.jpg)
 <h1 align="center">Hi 👋, I'm Muhamad Renald Adrian Putra</h1>
 <h3 align="center">A passionate software engineer from Indonesia</h3>
 
