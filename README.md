@@ -1,4 +1,4 @@
-![logo](https://i.pinimg.com/736x/8b/ee/af/8beeafe15422ea45639a5565f69576bd.jpg)
+![logo](https://github.com/Muhamadrenald/Muhamadrenald/blob/master/code.jpg)
 <h1 align="center">Hi 👋, I'm Muhamad Renald Adrian Putra</h1>
 <h3 align="center">A passionate software engineer from Indonesia</h3>
 
