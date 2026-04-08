@@ -3,7 +3,7 @@ name: Waka Readme
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
@@ -23,5 +23,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SECTION_NAME: waka
           SHOW_TITLE: true
-          TIME_RANGE: last_30_days
+          TIME_RANGE: last_7_days
           BLOCKS: ->
+          LANG_COUNT: 6
