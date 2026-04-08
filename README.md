@@ -205,7 +205,15 @@ class SoftwareEngineer {
 <br/>
 
 <!--START_SECTION:waka-->
-> ⚡ Coding stats powered by WakaTime — connect at [wakatime.com](https://wakatime.com/)
+
+```txt
+From: 31 March 2026 - To: 07 April 2026
+
+Total Time: 0 secs
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 </div>
