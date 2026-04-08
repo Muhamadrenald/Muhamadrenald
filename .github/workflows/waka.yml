@@ -1,0 +1,36 @@
+name: Waka Readme
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # update tiap 12 jam
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update README with WakaTime
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          REPOSITORY: Muhamadrenald/Muhamadrenald
+          SHOW_TIME: true
+          SHOW_TITLE: true
+          SECTION_NAME: waka
+          BLOCKS: ░▒▓█
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 8
+          SHOW_TOTAL: true
+
+      - name: Commit changes
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update waka stats"
+          git push
