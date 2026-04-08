@@ -10,8 +10,12 @@ permissions:
 
 jobs:
   update-readme:
+    name: Update README with WakaTime stats
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Update README with WakaTime stats
         uses: athul/waka-readme@master
         with:
@@ -19,5 +23,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SECTION_NAME: waka
           SHOW_TITLE: true
-          TIME_RANGE: last_7_days
+          TIME_RANGE: last_30_days
           BLOCKS: ->
