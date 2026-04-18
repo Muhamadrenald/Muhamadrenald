@@ -208,12 +208,12 @@ class SoftwareEngineer {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 10 April 2026 - To: 17 April 2026
+From: 11 April 2026 - To: 18 April 2026
 
-PHP              6 hrs 20 mins         >>>>>>>>-----------------   32.56 %
-Other            4 hrs 40 mins         >>>>>>-------------------   23.99 %
-TypeScript       3 hrs 34 mins         >>>>>--------------------   18.35 %
-CSV              2 hrs 33 mins         >>>----------------------   13.11 %
+PHP              6 hrs 20 mins         >>>>>>>>-----------------   32.62 %
+Other            4 hrs 40 mins         >>>>>>-------------------   24.03 %
+TypeScript       3 hrs 32 mins         >>>>>--------------------   18.20 %
+CSV              2 hrs 33 mins         >>>----------------------   13.13 %
 Blade Template   48 mins               >------------------------   04.15 %
 Markdown         45 mins               >------------------------   03.90 %
 ```
