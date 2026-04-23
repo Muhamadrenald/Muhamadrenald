@@ -13,7 +13,7 @@
 <!-- ╚══════════════════════════════════════╝ -->
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Flutter+%26+Dart+Mobile+Engineer;Laravel+%7C+PHP+%7C+CodeIgniter+Developer;UI%2FUX+Enthusiast+%7C+Figma+%26+Design+Systems;Always+Learning%2C+Always+Building;Passionate+Engineer+from+Indonesia"
+    src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Flutter+%26+Dart+%7C+React+Native+%7C+Cross-Platform+Mobile+Dev;React+%26+Next.js+%7C+Full-Stack+Web+Developer;Laravel+%7C+PHP+%7C+CodeIgniter+Developer;UI%2FUX+Enthusiast+%7C+Figma+%26+Design+Systems;Always+Learning%2C+Always+Building;Passionate+Engineer+from+Indonesia"
     alt="Typing animation" />
 </p>
 
@@ -57,7 +57,9 @@ class SoftwareEngineer {
 
   final List<String> stack = [
     "📱 Flutter & Dart — cross-platform mobile apps",
-    "🌐 Laravel & CodeIgniter — robust web backends",
+    "⚛️ React Native — mobile app development",
+    "🌐 React & Next.js — modern web development",
+    "🔴 Laravel & CodeIgniter — robust web backends",
     "🔥 Firebase — real-time cloud & auth solutions",
     "🎨 Figma — pixel-perfect UI/UX design",
   ];
@@ -115,6 +117,8 @@ class SoftwareEngineer {
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white)
