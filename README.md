@@ -127,6 +127,7 @@ class SoftwareEngineer {
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
@@ -244,7 +245,7 @@ Bash             7 mins                -------------------------   00.70 %
 | Express.js / Node.js | ![Node](https://img.shields.io/badge/Express.js%20%2F%20Node.js-90%25-d946ef?style=for-the-badge&logo=node.js&logoColor=white&labelColor=1a0938) |
 | UI/UX / Figma | ![Figma](https://img.shields.io/badge/UI%2FUX%20%2F%20Figma-90%25-e879f9?style=for-the-badge&logo=figma&logoColor=white&labelColor=1a0938) |
 | Firebase | ![Firebase](https://img.shields.io/badge/Firebase-90%25-f0abfc?style=for-the-badge&logo=firebase&logoColor=white&labelColor=1a0938) |
-| MySQL / MariaDB | ![MySQL](https://img.shields.io/badge/MySQL%20%2F%20MariaDB-90%25-a78bfa?style=for-the-badge&logo=mysql&logoColor=white&labelColor=1a0938) |
+| MySQL / MariaDB / PostgreSQL | ![MySQL](https://img.shields.io/badge/MySQL%20%2F%20MariaDB%20%2F%20PostgreSQL-90%25-a78bfa?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=1a0938) |
 | HTML / CSS / JS | ![JS](https://img.shields.io/badge/HTML%20%2F%20CSS%20%2F%20JS-90%25-7c3aed?style=for-the-badge&logo=javascript&logoColor=white&labelColor=1a0938) |
 
 </div>
