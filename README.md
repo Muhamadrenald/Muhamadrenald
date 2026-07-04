@@ -213,14 +213,14 @@ class SoftwareEngineer {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 26 June 2026 - To: 03 July 2026
+From: 27 June 2026 - To: 04 July 2026
 
-Blade Template   14 hrs 30 mins        >>>>>>>>>----------------   37.93 %
-CSS              6 hrs 19 mins         >>>>---------------------   16.52 %
-PHP              5 hrs 41 mins         >>>>---------------------   14.88 %
-JavaScript       5 hrs 32 mins         >>>>---------------------   14.49 %
-Markdown         2 hrs 26 mins         >>-----------------------   06.37 %
-JSON             1 hr 18 mins          >------------------------   03.40 %
+Blade Template   13 hrs 51 mins        >>>>>>>>>----------------   37.20 %
+CSS              6 hrs 18 mins         >>>>---------------------   16.94 %
+PHP              5 hrs 41 mins         >>>>---------------------   15.27 %
+JavaScript       5 hrs 5 mins          >>>----------------------   13.67 %
+Markdown         2 hrs 26 mins         >>-----------------------   06.54 %
+JSON             1 hr 18 mins          >------------------------   03.49 %
 ```
 
 <!--END_SECTION:waka-->
