@@ -213,14 +213,14 @@ class SoftwareEngineer {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 20 September 2026 - To: 27 September 2026
+From: 21 September 2026 - To: 28 September 2026
 
-PHP              3 hrs 34 mins         >>>>>>>------------------   29.10 %
-Go               2 hrs 30 mins         >>>>>--------------------   20.46 %
-TypeScript       2 hrs 30 mins         >>>>>--------------------   20.40 %
-Other            1 hr 52 mins          >>>>---------------------   15.32 %
-Blade Template   35 mins               >------------------------   04.83 %
-SQL              26 mins               >------------------------   03.59 %
+PHP              3 hrs 34 mins         >>>>>>>>-----------------   33.27 %
+TypeScript       2 hrs 28 mins         >>>>>>-------------------   23.03 %
+Go               1 hr 32 mins          >>>>---------------------   14.43 %
+Other            1 hr 24 mins          >>>----------------------   13.08 %
+Blade Template   35 mins               >------------------------   05.52 %
+JSON             24 mins               >------------------------   03.78 %
 ```
 
 <!--END_SECTION:waka-->
