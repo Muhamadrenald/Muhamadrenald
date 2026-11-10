@@ -211,18 +211,16 @@ class SoftwareEngineer {
 <br/>
 
 <!--START_SECTION:waka-->
+**Weekly coding activity** (last 7 days, total: 44 hrs 21 mins)
 
 ```txt
-From: 24 October 2026 - To: 31 October 2026
-
-PHP              12 hrs 49 mins        >>>>>>>>>>>--------------   44.89 %
-Python           3 hrs 51 mins         >>>----------------------   13.50 %
-Markdown         2 hrs 27 mins         >>-----------------------   08.63 %
-Blade Template   2 hrs 16 mins         >>-----------------------   07.96 %
-Text             1 hr 52 mins          >>-----------------------   06.58 %
-Image (png)      1 hr 1 min            >------------------------   03.59 %
+PHP           16 hrs 22 mins  █████████░░░░░░░░░░░░░░░░  35.60 %
+Python        6 hrs 26 mins   ████░░░░░░░░░░░░░░░░░░░░░  14.01 %
+Blade Template5 hrs 44 mins   ███░░░░░░░░░░░░░░░░░░░░░░  12.47 %
+Markdown      3 hrs 41 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   8.03 %
+Text          3 hrs 14 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   7.03 %
+TypeScript    3 hrs 11 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   6.93 %
 ```
-
 <!--END_SECTION:waka-->
 
 </div>
