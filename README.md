@@ -205,7 +205,7 @@ class SoftwareEngineer {
 <!-- ║  WAKATIME / CODING TIME              ║ -->
 <!-- ╚══════════════════════════════════════╝ -->
 
-## ⏳ Weekly Coding Breakdown
+## ⏳ All-Time Coding Breakdown
 
 <div align="center">
 <br/>
