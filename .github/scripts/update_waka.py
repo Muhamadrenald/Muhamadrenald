@@ -48,13 +48,13 @@ def fetch():
 
 def bar(percent):
     filled = round(BAR_WIDTH * percent / 100)
-    return "█" * filled + "░" * (BAR_WIDTH - filled)
+    return ">" * filled + "-" * (BAR_WIDTH - filled)
 
 
 def build_block(data):
     langs = [l for l in data["languages"] if l["name"] != "Other"][:LANG_COUNT]
     lines = [
-        f"{l['name']:<14}{l['text']:<16}{bar(l['percent'])}  {l['percent']:5.2f} %"
+        f"{l['name']:<16}{l['text']:<16}{bar(l['percent'])}  {l['percent']:5.2f} %"
         for l in langs
     ]
     total = data.get("human_readable_total", "")
