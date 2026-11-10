@@ -1,9 +1,9 @@
 name: Waka Readme
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 0 * * *" # 00:00 UTC every day
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,13 +16,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update README with WakaTime stats
-        uses: athul/waka-readme@master
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SECTION_NAME: waka
-          SHOW_TITLE: true
-          TIME_RANGE: last_7_days
-          BLOCKS: ->
-          LANG_COUNT: 6
+          python-version: "3.12"
+
+      - name: Fetch WakaTime stats and update README
+        run: python .github/scripts/update_waka.py
+        env:
+          WAKATIME_TOKEN: ${{ secrets.WAKATIME_OAUTH_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "Updated waka-readme graph with new metrics" && git push)
