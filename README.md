@@ -214,12 +214,12 @@ class SoftwareEngineer {
 **Weekly coding activity** (last 7 days, total: 44 hrs 21 mins)
 
 ```txt
-PHP           16 hrs 22 mins  █████████░░░░░░░░░░░░░░░░  35.60 %
-Python        6 hrs 26 mins   ████░░░░░░░░░░░░░░░░░░░░░  14.01 %
-Blade Template5 hrs 44 mins   ███░░░░░░░░░░░░░░░░░░░░░░  12.47 %
-Markdown      3 hrs 41 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   8.03 %
-Text          3 hrs 14 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   7.03 %
-TypeScript    3 hrs 11 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   6.93 %
+PHP             16 hrs 22 mins  >>>>>>>>>----------------  35.60 %
+Python          6 hrs 26 mins   >>>>---------------------  14.01 %
+Blade Template  5 hrs 44 mins   >>>----------------------  12.47 %
+Markdown        3 hrs 41 mins   >>-----------------------   8.03 %
+Text            3 hrs 14 mins   >>-----------------------   7.03 %
+TypeScript      3 hrs 11 mins   >>-----------------------   6.93 %
 ```
 <!--END_SECTION:waka-->
 
