@@ -1,5 +1,5 @@
 """Update the README section between <!--START_SECTION:waka--> and
-<!--END_SECTION:waka--> with WakaTime stats from the last 7 days.
+<!--END_SECTION:waka--> with WakaTime stats from the all time.
 
 Uses a WakaTime personal OAuth access token (Bearer auth), because plain
 API keys are now restricted to plugins. No third-party dependencies.
@@ -13,7 +13,7 @@ import urllib.error
 import urllib.request
 
 TOKEN = os.environ["WAKATIME_TOKEN"]
-URL = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
+URL = "https://wakatime.com/api/v1/users/current/stats/all_time"
 README = os.environ.get("README_PATH", "README.md")
 SECTION = "waka"
 LANG_COUNT = 6
@@ -58,7 +58,7 @@ def build_block(data):
         for l in langs
     ]
     total = data.get("human_readable_total", "")
-    title = f"**Weekly coding activity** (last 7 days, total: {total})"
+    title = f"**Weekly coding activity** (all time, total: {total})"
     return f"{title}\n\n```txt\n" + "\n".join(lines) + "\n```"
 
 
