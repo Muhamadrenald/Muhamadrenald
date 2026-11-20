@@ -212,7 +212,7 @@ class SoftwareEngineer {
 
 <!--START_SECTION:waka-->
 <div align="center">
-  <img src="assets/waka-stats.svg?v=04422faf" alt="WakaTime coding activity" width="720" />
+  <img src="assets/waka-stats.svg?v=8138e08f" alt="WakaTime coding activity" width="720" />
 </div>
 <!--END_SECTION:waka-->
 
